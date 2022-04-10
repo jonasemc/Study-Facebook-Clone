@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.Tela-inicial {
+  display: flex;
+  background-color: #f0f2f5;
+  height: 700px;
+}

@@ -1,0 +1,78 @@
+.box {
+  padding-top: 120px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+.boxPrincipal {
+  justify-content: center;
+  width: fit-content;
+  background-color: white;
+  display: flex;
+  padding: 15px;
+  border-radius: 10px;
+}
+.boxSecundaria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  width: 360px;
+  height: 45px;
+  margin-bottom: 10px;
+  border-color: #dddfe2;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+.input::placeholder {
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+.botaoEntrar {
+  margin-top: 1px;
+  height: 50px;
+  width: 360px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #166fe5;
+  font: bold 20px arial;
+  color: white;
+}
+
+div a {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #1877f2;
+  text-align: center;
+  font: 14px arial;
+  text-decoration: none;
+}
+.linha {
+  width: 360px;
+  border: 0.01px solid;
+  border-color: #dddfe2;
+}
+
+.botaoCriar {
+  justify-content: center;
+  height: 50px;
+  width: 180px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #36a420;
+  font: bold 18px arial;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+div p {
+  font-size: small;
+  text-align: center;
+}
